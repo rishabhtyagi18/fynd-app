@@ -1,0 +1,54 @@
+.main_container {
+    width: 600px;
+    background-color: hsla(0,0%,91.8%,.56) !important;
+    border-radius: 16px;
+    padding: 16px 117px 60px 100px;
+    box-sizing: border-box;
+    margin: 50px auto;
+}
+
+.drop-down_container {
+    width: 400px;
+}
+
+.default {
+    margin: 32px 0px 13px;
+}
+
+.select_box {
+    height: 40px;
+    box-sizing: border-box;
+    width: 220px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    border: 1px solid #ccc;
+    padding: 10px 20px 10px 10px;
+    font-size: 15px;
+    color: grey;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: #ffffff;
+}
+
+.select_arrow {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    color: #4169E1;
+    transform: scale(0.7) rotate(-45deg);
+}
+
+.select_arrow::after {
+    position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+}
+
+.form_control{
+    width: 220px;
+}
